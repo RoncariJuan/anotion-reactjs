@@ -30,7 +30,7 @@ const Carreira = () => {
       <div className="bg-black text-white py-10 px-4 flex flex-col md:flex-row items-center justify-center gap-10">
       <div className="max-w-md">
         <h2 className="uppercase tracking-widest text-sm mb-2">Carreiras</h2>
-        <p className="text-2xl font-light leading-relaxed">
+        <p className="text-2xl font-light leading-relaxed max-sm:text-sm">
           Procuramos pessoas talentosas e inovativas para o nosso time.
           Veja as vagas e envie seu CV.
         </p>

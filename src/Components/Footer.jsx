@@ -23,7 +23,7 @@ const Footer = () => {
                 <li>ASSINAR</li>
                 <li>Receba notícias e atualizações sobre o Autono</li>
                 <li>Email</li>
-                <div>
+                <div className='max-sm:flex max-sm:flex-col max-sm:items-center max-sm:jutify-center'>
                     <input type="text" name="" id="" className='border-1 border-black rounded-sm p-2 w-66'/>
                     <Button className='bg-black text-white p-2 rounded-sm cursor-pointer hover:bg-white hover:text-black hover:border-black hover:border-1'>Assinar</Button>
                 </div>

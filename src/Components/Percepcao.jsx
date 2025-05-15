@@ -8,7 +8,7 @@ const Percepcao = () => {
   return (
         <section className='flex mx-auto justify-between items-center max-sm:flex-col'>
         <div className='*:text-black flex flex-col gap-4 justify-center  p-8 border-l-4 border-white ml-8 h-[500px] max-sm:justify-center max-sm:gap-4'>
-            <h1 className='uppercase text-5xl leading-relaxed' style={{width:'10ch'}}>PERCEPÇÃO ATIVADA</h1>
+            <h1 className='uppercase text-5xl leading-relaxed max-sm:2xl' style={{width:'10ch'}}>PERCEPÇÃO ATIVADA</h1>
             <h2 className='text-2xl font-light max-sm:text-sm' style={{width: '30ch'}} onClick={handleParagrafo}>{paragrafo}</h2>
             <Button className='border-1 border-black hover:bg-black hover:text-white rounded-md cursor-pointer py-2 w-40'>Saiba Mais</Button>
         </div>

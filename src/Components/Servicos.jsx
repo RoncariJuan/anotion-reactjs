@@ -8,7 +8,7 @@ const Servicos = () => {
 
   return (
     <section className='bg-white p-12 flex flex-col gap-8'>
-        <div className='border-l-2 border-black pl-8 gap-8 flex flex-col'>
+        <div className='border-l-2 border-black pl-8 gap-8 flex flex-col max-sm:pl-4'>
             <h2 className='text-4xl'>Serviços</h2>
         <h3 className='text-xl' style={{width:'20ch'}}>Entregamos produtos e serviços incríveis no mundo todo</h3>
         </div>

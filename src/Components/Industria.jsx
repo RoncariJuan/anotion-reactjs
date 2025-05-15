@@ -11,7 +11,7 @@ const Industria = () => {
       <div className='*:text-white p-8 gap-4 flex flex-col border-1 border-l-white ml-8  max-sm:justify-center max-sm:gap-4'>
         <h1 className='text-xl'>Industria</h1>
         <span className='text-2xl'>Nossos Parceiros</span>
-        <p onClick={handleParagrafo} style={{width:'30ch'}}>{paragrafo}</p>
+        <p onClick={handleParagrafo} style={{width:'30ch'}} className='max-sm:text-sm'>{paragrafo}</p>
       </div>
 
       <div className='grid grid-cols-2 gap-12 items-center max-sm:flex max-sm:gap-8 max-sm:mt-12'>

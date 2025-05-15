@@ -12,8 +12,8 @@ const Informacaos = () => {
             <img src='/assets/informacaos.avif' alt="" className='object-fill w-full h-full'/>
         </div>
         <div className='flex flex-col justify-center items-start gap-8 p-12'>
-            <h2 className='uppercase text-5xl leading-relaxed' style={{width:'10ch'}}>Informaçãos ao vivo</h2>
-            <p className='text-lg' style={{width:'30ch'}} onClick={handleParagrafo}>{paragrafo}</p>
+            <h2 className='uppercase text-5xl leading-relaxed max-sm:text-2xl' style={{width:'10ch'}}>Informaçãos ao vivo</h2>
+            <p className='text-lg max-sm:text-sm' style={{width:'30ch'}} onClick={handleParagrafo}>{paragrafo}</p>
             <Button className='border-1 border-black hover:bg-black hover:text-white rounded-md cursor-pointer py-2 w-40'>Saiba Mais</Button>
         </div>
     </section>
