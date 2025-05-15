@@ -1,5 +1,5 @@
 import React from 'react'
-import ferramentaFoto from '../assets/ferramenta.avif'
+import ferramentaFoto from '../../public/assets/ferramenta.avif'
 const Robo = () => {
   return (
     <section className='flex mx-auto justify-between items-center max-sm:flex-col-reverse pb-12'>

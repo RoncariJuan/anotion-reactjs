@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-import carro from '../assets/carro2.avif'
+import carro from '../../public/assets/carro2.avif'
 const Servicos = () => {
     const [paragrafo, setParagrafo] = React.useState('Sou um parágrafo. Aqui você pode adicionar e editar seu próprio texto. É fácil, basta clicar em "Editar texto" ou clicar duas vezes sobre mim. Você também pode alterar a fonte e mais. Sou um ótimo lugar para você compartilhar a sua história com os visitantes.');
     const handleParagrafo = () => {

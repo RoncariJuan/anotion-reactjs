@@ -1,5 +1,5 @@
 import React from 'react'
-import carrinho from '../assets/carrinho.avif'
+import carrinho from '../../public/assets/carrinho.avif'
 const Carro = () => {
   const [paragrafo, setParagrafo] = React.useState('Sou um parágrafo. Aqui você pode adicionar e editar seu próprio texto. É fácil, basta clicar em "Editar texto" ou clicar duas vezes sobre mim. Você também pode alterar a fonte e mais. Sou um ótimo lugar para você compartilhar a sua história com os visitantes.');
           const handleParagrafo = () => {

@@ -1,7 +1,5 @@
 import React from 'react'
-import trinex from '../assets/trinex.avif'
-import idi from '../assets/IDI_Software.avif'
-import imagine from '../assets/imagine.avif'
+
 
 const Industria = () => {
    const [paragrafo, setParagrafo] = React.useState('Sou um parágrafo. Aqui você pode adicionar e editar seu próprio texto. É fácil, basta clicar em "Editar texto" ou clicar duas vezes sobre mim. Você também pode alterar a fonte e mais. Sou um ótimo lugar para você compartilhar a sua história com os visitantes.');
@@ -18,17 +16,17 @@ const Industria = () => {
 
       <div className='grid grid-cols-2 gap-12 items-center max-sm:flex max-sm:gap-8 max-sm:mt-12'>
         <div className='flex flex-col gap-4 items-center'>
-          <img src={trinex} alt="" />
+          <img src='/public/assets/trinex.avif' alt="" />
           <p  className='text-white'>TRI-NEX</p>
         </div>
 
         <div className='flex flex-col gap-4 items-center'>
-          <img src={idi} alt="" />
+          <img src='/public/assets/IDI_Software.avif' alt="" />
           <p className='text-white'>IDI SOFTWARE</p>
         </div>
 
         <div className='flex flex-col gap-4 items-center'>
-          <img src={imagine} alt="" />
+          <img src='/public/assets/imagine.avif' alt="" />
           <p className='text-white'>Imagine Cars</p>
         </div>
 
