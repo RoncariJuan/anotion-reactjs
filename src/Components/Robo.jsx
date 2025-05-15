@@ -1,10 +1,9 @@
 import React from 'react'
-import ferramentaFoto from '../../public/assets/ferramenta.avif'
 const Robo = () => {
   return (
     <section className='flex mx-auto justify-between items-center max-sm:flex-col-reverse pb-12'>
        <div>
-            <img src={ferramentaFoto} alt="" />
+            <img src='/assets/ferramenta.avif' alt="" />
         </div>
         <div className='flex flex-col gap-4'>
             <h1 className='uppercase text-3xl leading-relaxed' style={{width:'10ch'}}>Autono em numeros</h1>

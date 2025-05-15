@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-import InformacaosFoto from '../../public/assets/informacaos.avif'
+
 const Informacaos = () => {
     const [paragrafo, setParagrafo] = React.useState('Sou um parágrafo. Aqui você pode adicionar e editar seu próprio texto. É fácil, basta clicar em "Editar texto" ou clicar duas vezes sobre mim. Você também pode alterar a fonte e mais. Sou um ótimo lugar para você compartilhar a sua história com os visitantes.');
         const handleParagrafo = () => {
@@ -9,7 +9,7 @@ const Informacaos = () => {
   return (
     <section className='flex justify-around items-center max-sm:flex-col-reverse'>
         <div>
-            <img src={InformacaosFoto} alt="" className='object-fill w-full h-full'/>
+            <img src='/assets/informacaos.avif' alt="" className='object-fill w-full h-full'/>
         </div>
         <div className='flex flex-col justify-center items-start gap-8 p-12'>
             <h2 className='uppercase text-5xl leading-relaxed' style={{width:'10ch'}}>Informaçãos ao vivo</h2>

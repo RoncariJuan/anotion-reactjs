@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from './Button'
-import carro from '../../public/assets/carro2.avif'
 const Servicos = () => {
     const [paragrafo, setParagrafo] = React.useState('Sou um parágrafo. Aqui você pode adicionar e editar seu próprio texto. É fácil, basta clicar em "Editar texto" ou clicar duas vezes sobre mim. Você também pode alterar a fonte e mais. Sou um ótimo lugar para você compartilhar a sua história com os visitantes.');
     const handleParagrafo = () => {
@@ -21,7 +20,7 @@ const Servicos = () => {
                 <Button className='border-1 border-black hover:bg-black hover:text-white rounded-md cursor-pointer py-2 w-40'>Saiba Mais</Button>
             </div>
             <div>
-                <img src={carro} alt="" />
+                <img src='/assets/carro2.avif' alt="" />
             </div>
         </div>
     </section>

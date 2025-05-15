@@ -16,17 +16,17 @@ const Industria = () => {
 
       <div className='grid grid-cols-2 gap-12 items-center max-sm:flex max-sm:gap-8 max-sm:mt-12'>
         <div className='flex flex-col gap-4 items-center'>
-          <img src='/public/assets/trinex.avif' alt="" />
+          <img src='/assets/trinex.avif' alt="" />
           <p  className='text-white'>TRI-NEX</p>
         </div>
 
         <div className='flex flex-col gap-4 items-center'>
-          <img src='/public/assets/IDI_Software.avif' alt="" />
+          <img src='/assets/IDI_Software.avif' alt="" />
           <p className='text-white'>IDI SOFTWARE</p>
         </div>
 
         <div className='flex flex-col gap-4 items-center'>
-          <img src='/public/assets/imagine.avif' alt="" />
+          <img src='/assets/imagine.avif' alt="" />
           <p className='text-white'>Imagine Cars</p>
         </div>
 
