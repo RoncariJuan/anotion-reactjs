@@ -1,5 +1,5 @@
 import React from 'react'
-
+import carrinho from '../assets/carrinho.avif'
 const Carro = () => {
   const [paragrafo, setParagrafo] = React.useState('Sou um parágrafo. Aqui você pode adicionar e editar seu próprio texto. É fácil, basta clicar em "Editar texto" ou clicar duas vezes sobre mim. Você também pode alterar a fonte e mais. Sou um ótimo lugar para você compartilhar a sua história com os visitantes.');
           const handleParagrafo = () => {
@@ -13,7 +13,7 @@ const Carro = () => {
             <h2 className='text-2xl font-light max-sm:text-sm' style={{width: '30ch'}} onClick={handleParagrafo}>{paragrafo}</h2>
         </div>
         <div>
-            <img src="../../public/img/carrinho.avif" alt="" />
+            <img src={carrinho} alt="" />
         </div>
     </section>
   )
