@@ -15,7 +15,7 @@ const Home = () => {
         <h1 className="text-center text-8xl max-sm:text-3xl" style={{ width: "20ch" }}>
           O FUTURO DA MOBILIDADE CHEGOU
         </h1>
-        <p className="text-center text-3xl font-bold py-5 max-sm:text-sm" style={{ width: "50ch" }}>
+        <p className="text-center text-3xl font-bold py-5 max-sm:text-sm">
           Prove uma direção autônoma mais segura com Autono.
         </p>
       </main>
